@@ -1,0 +1,22 @@
+{
+    "name": "Mojo.document",
+    "version": "1.0.0",
+    "description": "document for Mojo lang",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "build": "vuepress build docs"
+    },
+    "keywords": [
+        "map",
+        "2d",
+        "3d"
+    ],
+    "author": "grankee.zhou@gmail.com",
+    "license": "ISC",
+    "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.8.0",
+        "cross-env": "^7.0.3",
+        "vuepress": "^1.8.0"
+    }
+}
